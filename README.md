@@ -42,7 +42,7 @@ Our group are running the model for 5 times with the average results displayed i
 | ..±.. | ..±.. |
 | ..±.. | ..±.. |
 
-Detailed Results
+Detailed Results:
 | Attempt | Custom Model | VGG19 |
 | --- | --- | --- |
 | 1 | .. | .. |
