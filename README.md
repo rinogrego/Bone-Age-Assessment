@@ -37,22 +37,23 @@ As for the models, in total we are using 4 different models for 2 scenarios, cre
 Our group are running the model for 5 times with the average results displayed in the table below:
 | Custom Model | VGG19 |
 | --- | --- |
-| ..% | ..% |
-| ..% | ..% |
+| ..±.. | ..±.. |
+| ..±.. | ..±.. |
 
 Detailed Results
 | Attempt | Custom Model | VGG19 |
 | --- | --- | --- |
-| 1 | ..% | ..% |
-| 2 | ..% | ..% |
-| 3 | ..% | ..% |
-| 4 | ..% | ..% |
-| 5 | ..% | ..% |
+| 1 | .. | .. |
+| 2 | .. | .. |
+| 3 | .. | .. |
+| 4 | .. | .. |
+| 5 | .. | .. |
 
 ## Conclusion
+...
 
 ## Future Works
 For future works we suggest to do the same experiment with :
 - different pre-trained models such as ResNet, MobileNet, DenseNet, etc. or by using models developed specifically for this particular problem by other researchers
-- more dataset
+- more data
 - with hyperparameter tuning
