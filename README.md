@@ -18,8 +18,6 @@ For this project, due to lack of computational resources we only used 5000 obser
 
 ## Experiment
 We are using a fixed hyperparameter set that applies to all the models.
-
-<div align="middle">
 | Hyperparameter | Value |
 | --- | --- |
 | Epoch | 30 |
@@ -27,7 +25,6 @@ We are using a fixed hyperparameter set that applies to all the models.
 | Batch Size | 32 |
 | Optimizers | Adam |
 | Evaluation Method | MAE |
-</div>
 
 As for the models, in total we are using 4 different models for 2 scenarios, created using Keras, where the model takes image as input with shape 224x224x3. Each pixel of the image is rescaled by 1/255 before being fed into the model.
 ### Scenario 1: One-input CNN model (image)
