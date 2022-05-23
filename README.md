@@ -53,7 +53,9 @@ Detailed Results
 ...
 
 ## Future Works
-For future works we suggest to do the same experiment with :
-- different pre-trained models such as ResNet, MobileNet, DenseNet, etc. or by using models developed specifically for this particular problem by other researchers
-- more data
-- with hyperparameter tuning
+For future works we suggest to 
+-   do the same experiment with:
+    - different pre-trained models such as ResNet, MobileNet, DenseNet, etc. or by using models developed specifically for this particular problem by other researchers
+    - more data
+    - with hyperparameter tuning
+- always use gender variable for building a bone age regression model to achieve better performance
