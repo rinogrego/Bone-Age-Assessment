@@ -58,6 +58,7 @@ Detailed Results:
 For future works we suggest to 
 -   do the same experiment with:
     - image preprocessing like augmentation, image segmentation, etc.
+    - apply image preprocessing methods for dealing with hand bone image
     - different pre-trained models such as ResNet, MobileNet, DenseNet, etc. or by using models developed specifically for this particular problem by other researchers
     - more data
     - with hyperparameter tuning
