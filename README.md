@@ -36,30 +36,24 @@ As for the models, in total we are using 4 different models for 2 scenarios, cre
 - VGG19 model that takes 2 input with imagenet weights + 2 FC layers each with 2048 neurons. The gender variable is connected to 2 64-neurons FC layers before concatenated with CNN layer.
 
 ## Results
-Our group are running the model for 5 times with the average results displayed in the table below:
-| Custom Model | VGG19 |
-| --- | --- |
-| ..±.. | ..±.. |
-| ..±.. | ..±.. |
-
-Detailed Results:
-| Attempt | Custom Model | VGG19 |
+Our group are running the model for 5 times with the average results for the test set displayed in the table below:
+| Model Input | Custom Model | VGG19 |
 | --- | --- | --- |
-| 1 | .. | .. |
-| 2 | .. | .. |
-| 3 | .. | .. |
-| 4 | .. | .. |
-| 5 | .. | .. |
+| Image | 22.48 | 17 |
+| Image + Gender | 20.77 | 12 |
 
 ## Conclusion
-...
+
+1. Model that takes image and gender feature as inputs will give better results compared to model that just take image as an input
+2. Transfer Learning provides better performance compared to just simple CNN to predict bone age from X-ray hand bone image
 
 ## Future Works
-For future works we suggest to 
+
+For future works we suggest to
 -   do the same experiment with:
     - image preprocessing like augmentation, image segmentation, etc.
     - apply image preprocessing methods for dealing with hand bone image
     - different pre-trained models such as ResNet, MobileNet, DenseNet, etc. or by using models developed specifically for this particular problem by other researchers
     - more data
     - with hyperparameter tuning
-- always use gender variable for building a bone age regression model to achieve better performance
+- always use gender feature for building a bone age regression model to achieve better performance
